@@ -31,7 +31,8 @@ footer {
 
 .boxes {
     display: flex;
-    align-items: top;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
