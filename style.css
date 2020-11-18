@@ -4,7 +4,7 @@
 /* #333e48 grayish*/
 
 @font-face {
-    src: url(/fonts/handelGothic.ttf);
+    src: url(fonts/handelGothic.ttf);
     font-family: handelGothic;
 }
 
@@ -31,6 +31,7 @@ footer {
 
 .boxes {
     display: flex;
+    align-items: top;
 }
 
 .box {
@@ -42,7 +43,16 @@ footer {
     border: solid 5px #f26574;
 }
 
+.boxtext {
+    text-align: center;
+}
+
 .img {
     max-height: 80%;
     max-width: 80%;
+}
+
+.forms {
+    text-align: center;
+    margin-bottom: 20px;
 }
