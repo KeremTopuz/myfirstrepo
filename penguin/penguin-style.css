@@ -37,6 +37,19 @@
     border-radius: 30% 30% 120% 30%;
     transform: rotate(45deg);
     z-index: -1;
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
 }
 
 .left-hand {
