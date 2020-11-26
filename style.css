@@ -40,7 +40,7 @@ h1 {
 .flip-box-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-bottom: 100px;
 }
@@ -63,6 +63,7 @@ h1 {
     margin: auto;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    font-size: 11px;
 }
 
 .flip-box:hover .flip-box-inner {
