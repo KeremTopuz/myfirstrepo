@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+#goback {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    color: skyblue;
+}
+
+#entryBox {
+    display: grid;
+    justify-content: center;
+}
+
+#noteArea {
+    background-color: wheat;
+    color: darkblue;
+    font-size: 1.5em;
+    border-radius: 1em;
+    outline: none;
+    box-shadow: darkgray 0.2em 0.2em 0.1em 0.1em;
+    padding: 2%;
+}
+
+#btn {
+    background-color: wheat;
+    color: darkblue;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+    box-shadow: darkgray 0.2em 0.2em 0.1em 0.1em;
+    border: unset;
+}
+
+#notepadNav {
+    background-color: gray;
+    color: darkslategrey;
+    font-size: 0.5em;
+    margin-bottom: 1em;
+}
+
+#notepad {
+    background-color: wheat;
+    color: darkblue;
+    font-size: 1em;
+    margin: auto;
+    width: 60%;
+    height: 10em;
+    border-radius: 1em;
+    box-shadow: darkgray 0.2em 0.2em 0.1em 0.1em;
+}
+
+.singleNote {
+    margin-left: 1em;
+}

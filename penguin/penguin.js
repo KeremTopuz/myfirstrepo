@@ -11,3 +11,4 @@ function movePenguin() {
 }
 
 penguin.addEventListener("mouseover", movePenguin)
+penguin.addEventListener("touchstart", movePenguin)
